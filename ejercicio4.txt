@@ -1,0 +1,12 @@
+"""
+Entradas
+Precio del producto-->int-->p
+Salida
+Descuento-->float-->des=p*0.15
+Precio final-->float-->x=p-des
+"""
+p=int(input("digite el precio del producto: "))
+#Caja negra
+des=p*0.15
+x=p-des
+print("el precio a pagar es de: ",x)

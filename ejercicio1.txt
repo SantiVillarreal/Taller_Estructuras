@@ -1,0 +1,15 @@
+"""
+Entradas
+e1=int=edad_uno
+e2=int=edad_dos
+e3=int=edad_tres
+Salidas
+promedio=float=pr
+"""
+edad_uno=int(input("digite edad uno: "))
+edad_dos=int(input("digite edad dos: "))
+edad_tres=int(input("digite edad tres: "))
+#Caja negra
+pr=(edad_uno+edad_dos+edad_tres)/3
+print("El promedio es: ",pr)
+

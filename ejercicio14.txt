@@ -1,0 +1,6 @@
+L1= int(input("Ingresa el numero de la lectura actual de consumo de energía: "))
+L2 = int (input("Ingrese el numero de la lectura pasada de consumo energía: "))
+Kw = float (input("Cosoto de kilovatio por hora: "))
+T = L1-L2
+Tp = T*Kw
+print("El total a pagar este mes de electricidad es de: ""{:.0F}".format(Tp))

@@ -1,0 +1,38 @@
+"""
+Entradas
+a-->int-->tarea de matematicas
+b-->int-->tarea de matematicas
+c-->int-->tarea de matematicas
+d-->int-->Examen final de matematicas
+e-->int-->tarea de fisica
+f-->int-->tarea de fisica
+g-->int-->examen final de fisica
+h-->int-->tarea de quimica
+i-->int-->tarea de quimica 
+j-->int-->tarea de quimica
+k-->int-->examen final de quimica
+Salidas
+l -->int-->nota final de matematicas
+m-->int-->nota final de fisica
+n-->int-->nota final de quimica
+"""
+inp=input().split(" ")
+a,b,c,d,e,f,g,h,i,j,k=inp
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+e=int(e)
+f=int(f)
+g=int(g)
+h=int(h)
+i=int(i)
+j=int(j)
+k=int(k)
+#caja negra
+l=(d*0.9)+(((a+b+c)/3)*0.1)
+m=(g*0.8)+(((e+f)/2)*0.2)
+n=(k*0.85)+(((h+i+j)/3)*0.15)
+print("La nota final de matematicas es "+str(l))
+print("La nota final de fisica es "+str(m))
+print("La nota final de quimica es "+str(n))

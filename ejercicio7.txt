@@ -1,0 +1,11 @@
+"""
+Entrada
+Metros-->float-->mtr
+Salida
+Pulgadas-->float-->pul
+Pie-->float-->pie
+"""
+mtr=float(input("Digite los metros que quiera convertir: "))
+pul=mtr*39.37
+pie=mtr*3.281
+print("El valor en pies seria:", pie, "y en pulgadas es:",pul)

@@ -1,0 +1,15 @@
+  
+"""
+Entrada
+lote-->int-->a
+venta-->int-->b
+docenas-->int-->c
+Salida
+descuento-->int-->d
+"""
+a = int(input("digite el numero de lotes "))
+b= int(input("valor total de ventas es"))
+c= int(input("la cantidad de docenas es "))
+pp = (b*c)-a
+a = 100-((a/pp)*100)
+print("La ganancia ", a, "%")

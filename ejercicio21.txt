@@ -1,0 +1,13 @@
+
+"""
+entrada
+precio_pc-->int-->b
+precio_cuotas-->int-->a
+salidas
+recargo-->str-->r
+"""
+b=int(input("el precio del producto con pago al contado es: "))
+a = int(input("el precio del producto con pago a cuotas es: "))
+r=a-b
+bro=(r/a)*100
+print("el recargo es de "+ str (bro),"%")

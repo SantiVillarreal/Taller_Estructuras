@@ -1,0 +1,5 @@
+gsl=int(input("Galones a depositar de gasolina: "))
+lts = gsl*3.785
+tp = lts*50000
+print("De Galones a litros son: ""{:.2F}".format(lts), ("lt"))
+print("El precio a pagar por los galones es de: ""{:.0F}".format(tp), ("COP"))

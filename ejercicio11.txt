@@ -1,0 +1,21 @@
+"""
+Entradas
+a-->str-->nombre del trabajador
+b-->int-->hora normal en pesos
+c-->int-->horas normales trabajadas
+d-->int-->horas extras trabajadas
+e-->int-->cantidad de hijos
+Salidas
+i-->int-->Salario final
+"""
+a=str(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+#caja negra
+f=b*c
+g=d*(b+(b*0.25))
+h=f-(f*.014)
+i=h+250000+(173000*e)+180000+g
+print("El sueldo total del trabajador es "+str(i))

@@ -1,0 +1,5 @@
+pf=int(input("Ingrese el valor del precio final: "))
+pvp=int(input("Ingrese el valor del producto para PVP: "))
+v=(pf-pvp)/pf
+vt = v*100
+print("El porcentaje del precio PVP es de: ""{:.2F}".format(vt),("%"))
