@@ -1,14 +1,9 @@
-"""
-entrada
-a-->int-->a
-b-->int-->b
-c-->int-->c
-salida
-respuesta-->str-->res
-"""
-a, b, c, d = map(int, input("escriba los datos sugeridos ").split()) 
-if d==0 :
- res = (a-c)**2
-elif d>0 :
-    res = ((a-b)**3)/d
-print("el resultado sera de "+ str (res))
+c1=97
+c2= 98
+while(c1>=97 and c1 <=1003):
+
+    
+    if(c1%2==0):
+        print("{:.0f}".format(c3))
+    c1= c1+1
+    c3= (c1+c2)*226.5

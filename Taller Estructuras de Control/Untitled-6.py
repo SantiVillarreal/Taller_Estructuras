@@ -1,15 +1,9 @@
-"""
-Entradas
-a-->int-->a
-b-->int-->b
-c-->int-->c
-d-->int-->d
-"""
-a, b, c ,d=map(int, input("Digite los 4 valores:").split())
-#caja negra
-e=str(c)+str(d)
-f=int(e)
-if (f<=50):
-    print(str(a)+str(b)+"00")
-else:
-    print(str(a)+str(b+1)+"00")
+num=int(input("Ingrese númerador: "))
+denom=int(input("Ingrese denominador: "))
+
+while(num>= denom):
+    num=num - denom
+    res = num
+    print("Los resultares osn igual a: "+str(num))
+cot=0
+res=0

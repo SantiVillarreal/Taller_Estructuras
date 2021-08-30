@@ -1,10 +1,10 @@
-""
-distancia=float(input("Distancia recorrida en km: "))
-if distancia<300:
-    pago=50_000
-elif distancia>300:
-    if distancia<1000:
-        pago=70_000+(distancia-300)*30_000
-    else:
-        pago=150_000+(distancia-300)*9_000
-print(pago)
+punt=input()
+pt1, pt2= punt.split()
+pt1=float(pt1)
+pt2=float(pt2)
+while True:
+  
+    if(pt2!=0 and pt1!=0):
+        total=pt1*pt2
+        print("{:.0f}".format(total))
+        break

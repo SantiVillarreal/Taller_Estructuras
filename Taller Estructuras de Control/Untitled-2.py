@@ -1,12 +1,6 @@
-"""
-entrada
-sueldo-->int-->s
-salidas
-nuevo_sueldo-->str-->ns
-"""
-s=int(input("ingrese su sueldo $"))
-if s<900000:
- xs=s+(s*0.15)
-else:
- xs=s+(s*0.12)
-print("su nuevo sueldo es ")  
+contador=0
+while(contador< 100):
+    
+    if(contador%2!=0 and contador%7!=0):
+        print(contador)
+    contador= contador+1
