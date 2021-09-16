@@ -233,7 +233,7 @@ for i in archivo:
 #Agregue un país que no esté en la lista 
 """
 lista=[]
-lista.append("Konoha: Naruto \n")
+lista.append("Wakanda: Pantera Negra \n")
 for i in archivo: 
   lista.append(i)
   a=" ".join(lista)
